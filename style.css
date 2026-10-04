@@ -38,7 +38,7 @@ nav#topmenu a {
   transition: all 0.3s ease; 
 }
 
-/* Hover effect */
+
 #topmenu ul li a:hover {
   color: white;               
   background-color: #af4c4f;  
@@ -63,3 +63,5 @@ nav#topmenu a {
       padding: 8px 12px;
       font-size: 18px;
       border-radius: 4px;
+      
+    
