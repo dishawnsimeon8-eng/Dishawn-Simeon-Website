@@ -21,7 +21,28 @@ nav#topmenu a {
   text-decoration: none;
   color: #9a4747;  
 }
-nav a:hover {
-       color: darkblue;
-   }
+/* Style the navigation menu */
+#topmenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+#topmenu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: all 0.3s ease; /* smooth hover */
+}
+
+/* Hover effect */
+#topmenu ul li a:hover {
+  color: white;               /* text turns white */
+  background-color: #af4c4f;  /* green background */
+  border-radius: 4px;         /* rounded corners */
+  transform: scale(1.1);      /* slightly enlarge */
+}
   
