@@ -21,7 +21,7 @@ nav#topmenu a {
   text-decoration: none;
   color: #9a4747;  
 }
-/* Style the navigation menu */
+
 #topmenu ul {
   list-style-type: none;
   margin: 0;
@@ -35,14 +35,31 @@ nav#topmenu a {
   color: black;
   font-size: 18px;
   padding: 8px 12px;
-  transition: all 0.3s ease; /* smooth hover */
+  transition: all 0.3s ease; 
 }
 
 /* Hover effect */
 #topmenu ul li a:hover {
-  color: white;               /* text turns white */
-  background-color: #af4c4f;  /* green background */
-  border-radius: 4px;         /* rounded corners */
-  transform: scale(1.1);      /* slightly enlarge */
+  color: white;               
+  background-color: #af4c4f;  
+  border-radius: 4px;        
+  transform: scale(1.1);     
 }
-  
+   .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container img {
+      width: 240px;
+      height: auto;
+    }
+    .image-container .text-overlay {
+      position: absolute;
+      bottom: 20px;       
+      left: 20px;         
+      color: white;       
+      background: rgba(0,0,0,0.5); 
+      padding: 8px 12px;
+      font-size: 18px;
+      border-radius: 4px;
